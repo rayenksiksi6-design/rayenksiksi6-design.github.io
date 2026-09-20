@@ -8,5 +8,8 @@ heart.addEventListener("click", function () {
     clickText.style.display = "none";
 
     message.style.display = "block";
+    setTimeout(() => {
+        message.classList.add("show");
+    }, 10);
 
 });
